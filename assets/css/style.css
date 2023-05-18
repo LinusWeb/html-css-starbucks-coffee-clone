@@ -1,0 +1,590 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+
+/* ----- INÍCIO DO HEADER ----- */
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1236px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 51px;
+    width: 51px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.menu_principal {
+    display: flex;
+}
+
+.menu_principal ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+.menu_principal a {
+    display: block;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+}
+
+.menu_principal a:hover {
+    color: #008248;
+}
+
+.menu_principal img {
+    height: 48px;
+    width: 120px;
+}
+
+.menu_secundario {
+    display: flex;
+    align-items: center;
+}
+
+.img_historias {
+    height: 47px;
+    width: 120px;
+}
+
+.img_localizacao {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.localizacao_loja a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.botao_1l {
+    display: flex;
+    justify-content: center;
+    width: 95px; 
+}
+
+.botao_1 a {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    transition: 300ms;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+    padding: 8px 17px;
+}
+
+.botao_1 a:hover {
+    display: block;
+    cursor: pointer;
+    transition: 300ms;
+    padding: 6px 15px;
+    font-size: 12px;
+}
+
+.botao_2l {
+    display: flex;
+    justify-content: center;
+    width: 150px; 
+}
+
+.botao_2 a {
+    text-decoration: none;  
+    display: block;
+    cursor: pointer;
+    transition: 300ms;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 8px 17px;
+}
+
+.botao_2 a:hover {
+    display: block;
+    cursor: pointer;
+    transition: 300ms;
+    padding: 6px 15px; 
+    font-size: 12px;
+}
+
+/* ----- FIM DO HEADER ----- */
+
+
+
+
+/* ----- INÍCIO DO BANNER ----- */
+
+#banner {
+    height: 394px;
+    background-image:url('../img/banner_2809220138_desktop.jpg');
+    background-position: center;
+    background-size: cover;    
+}
+
+.controle_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+
+.esq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px #949494;
+}
+
+.dir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px #555555;
+}
+
+.controle_banner a {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+/* ----- FIM DO BANNER ----- */
+
+
+
+
+/* ----- INÍCIO DO CONTEÚDO ----- */
+
+#informes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: #d4e9e2;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.botao_saiba_mais a {
+    text-decoration: none;  
+    display: inline-block;
+    cursor: pointer;
+    transition: 300ms;
+    border: 1px solid #1e3932;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #1e3932;
+    font-weight: 700;
+    padding: 8px 17px;
+}
+
+.botao_saiba_mais a:hover {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #1e3932;
+    transition: 300ms;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 6px 15px; 
+}
+
+#voltando {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 600px;
+    background-color: #d4e9e2;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#voltando .conteudo_imagem {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-image:url('../img/sb-dia-do-fotografo.jpg');
+    background-position: center;
+    background-size: cover;    
+}
+
+.conteudo_texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.titulo {
+    font-size: 25px;
+    color: #1e3932;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.descricao {
+    font-size: 18px;
+    color: #1e3932;
+    line-height: 30px;
+    padding: 0px 95px;
+    margin-bottom: 30px;    
+}
+
+#saboreie {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    background-color: #d4e9e2;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#saboreie .conteudo_imagem {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-image:url('../img/featured-drinks.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#esperanca {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    background-color: #d4e9e2;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#esperanca .conteudo_imagem {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-image:url('../img/donate.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#coisas {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    background-color: #d4e9e2;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#coisas .conteudo_imagem {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-image:url('../img/partners.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----- FIM DO CONTEÚDO ----- */
+
+
+
+
+/* ----- INÍCIO DO RODAPÉ ----- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #bdbebe;
+    border-bottom: 1px solid #bdbebe;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.footer_1 {
+    display: flex;
+    height: 480px;
+}
+
+.footer_2 {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    border-top: 1px solid #bdbebe;
+    padding-top: 50px;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.itens_rodape {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.titulo_rodape {
+    font-size: 18px;
+    color: #32312d;
+    padding-bottom: 30px;
+}
+
+.itens_rodape li {
+    list-style: none;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.itens_rodape a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #707070;
+}
+
+.itens_rodape a:hover {
+    text-decoration: none;  
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #212121;
+}
+
+.footer_2 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.footer_2 li {
+    margin-right: 20px;
+    margin-bottom: 45px;
+}
+
+.img_rede_social {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_rede_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+}
+
+.img_rede_item a {
+    display: flex;
+    transition: 300ms;
+    text-decoration: none;   
+}
+
+.img_rede_item a:hover {
+    transition: 300ms;
+    transform: scale(1.2);
+}
+
+.footer_2 a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #212121;
+}
+
+.footer_2 a:hover {
+    text-decoration: none;  
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #707070;
+}
+
+.footer_2 h4 {
+    color: #707070;
+}
+
+.politicas {
+    text-align: left;
+}
+
+.direitos {
+    text-align: left;
+}
+
+/* ----- FIM DO RODAPÉ ----- */
+
+
+
+
+@media (max-width:768px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 768px;
+        margin: 0px auto;
+    }
+
+    .titulo {
+        font-size: 20px;
+        color: #1e3932;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+
+    .footer_1 {
+        display: flex;
+        height: 100%;
+    }
+
+    .img_rede_social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .politicas {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .direitos {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .itens_rodape a {
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 14px;
+        color: #707070;
+    }
+
+    .menu_secundario {
+        display: none;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #banner {
+        height: 294px;
+        background-image: url(../img/banner_2809220138_desktop.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .itens_rodape li {
+        list-style: none;
+        line-height: 25px;
+        padding-bottom: 0px;
+    }
+
+    .itens_rodape {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .botao {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        max-width: 300px;
+    }
+
+    .descricao {
+        font-size: 16px;
+        color: #1e3932;
+        line-height: 20px;
+        padding: 0px 35px;
+        margin-bottom: 30px;
+    }
+
+}
